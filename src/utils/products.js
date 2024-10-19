@@ -230,13 +230,13 @@ export const products = [
     category: "sofa",
     price: 193,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Thiết kế hiện đại, phù hợp với không gian sống tối giản!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Sofa hiện đại với đường nét tinh tế: Sự kết hợp giữa thiết kế tối giản và hiện đại, chiếc sofa này phù hợp với không gian sống nhỏ gọn. Bọc vải nỉ mềm mại, tạo cảm giác thoải mái trong mỗi lần ngồi. Khung gỗ tự nhiên chắc chắn, tăng độ bền và sự ổn định cho sản phẩm.!",
     reviews: [
       {
-        rating: 4.7,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        rating: 5.0,
+        text: "Ngồi êm phải biết.",
       },
     ],
     avgRating: 4.5,
@@ -566,17 +566,17 @@ export const products = [
     category: "mobile",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Đơn giản là chả khác gì Iphone 15 Pro Max khác mỗi cái nút hông",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Ngậy tuyệt đối , nhớ vị đời ,hết nước chấm ,húp vội bát cơm ,mỹ vị nhân gian ,nghẹn phải biết ,ra trò đấy , chỉ biết ước , 8386!",
     reviews: [
       {
-        rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        rating: 5 ,
+        text: "Ra trò đấy , xứng đáng với số tiền bỏ ra.",
       },
       {
-        rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        rating: 5,
+        text: "Từ khi mua về đi quanh xóm , tôi chưa thấy điện thoại ai oách hơn tôi.",
       },
     ],
     avgRating: 4.8,

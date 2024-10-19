@@ -12,13 +12,13 @@ const ProductReviews = ({ selectedProduct }) => {
             style={{ color: listSelected === "desc" ? "black" : "#9c9b9b" }}
             onClick={() => setListSelected("desc")}
           >
-            Description
+            Chi tiết 
           </li>
           <li
             style={{ color: listSelected === "rev" ? "black" : "#9c9b9b" }}
             onClick={() => setListSelected("rev")}
           >
-            Reviews ({selectedProduct?.reviews.length})
+            Đánh giá({selectedProduct?.reviews.length})
           </li>
         </ul>
         {listSelected === "desc" ? (

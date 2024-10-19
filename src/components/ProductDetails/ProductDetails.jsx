@@ -14,7 +14,7 @@ const ProductDetails = ({ selectedProduct }) => {
   };
   const handelAdd = (selectedProduct, quantity) => {
     dispatch(addToCart({ product: selectedProduct, num: quantity }));
-    toast.success("Product has been added to cart!");
+    toast.success("Sản phẩm đã được thêm vào giỏ hàng!");
   };
 
   return (
@@ -54,7 +54,7 @@ const ProductDetails = ({ selectedProduct }) => {
               className="add"
               onClick={() => handelAdd(selectedProduct, quantity)}
             >
-              Add To Cart
+              Thêm vào giỏ hàng
             </button>
           </Col>
         </Row>
