@@ -28,7 +28,7 @@ const Cart = () => {
         <Row className="justify-content-center">
           <Col md={8}>
             {cartList.length === 0 && (
-              <h1 className="no-items product">No Items are add in Cart</h1>
+              <h1 className="no-items product">Không có sản phẩm trong giỏ hàng</h1>
             )}
             {cartList.map((item) => {
               const productQty = item.price * item.qty;
@@ -78,9 +78,9 @@ const Cart = () => {
           </Col>
           <Col md={4}>
             <div className="cart-total">
-              <h2>Cart Summary</h2>
+              <h2>Giỏ hàng</h2>
               <div className=" d_flex">
-                <h4>Total Price :</h4>
+                <h4>Tổng tiền :</h4>
                 <h3>${totalPrice}.00</h3>
               </div>
             </div>

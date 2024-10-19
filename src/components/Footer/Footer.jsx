@@ -10,36 +10,36 @@ const Footer = () => {
             <Col md={3} sm={5} className='box'>
               <div className="logo">
                   <ion-icon name="bag"></ion-icon>
-                  <h1>Multimart</h1>
+                  <h1>FurRy</h1>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+              <p>Chúng tôi mang đến những sản phẩm chất lượng, giúp bạn tự tin tỏa sáng với phong cách riêng biệt của mình.</p>
             </Col>
             <Col md={3} sm={5} className='box'>
-              <h2>About Us</h2>
+              <h2>Về chúng tôi</h2>
               <ul>
-                <li>Careers</li>
-                <li>Our Stores</li>
-                <li>Our Cares</li>
-                <li>Terms & Conditions</li>
-                <li>Privacy Policy</li>
+                <li>Giới thiệu</li>
+                <li>Cửa hàng </li>
+                <li>Sự chăm sóc</li>
+                <li>Điều khoản và điều kiện</li>
+                <li>Chính sách bảo mật</li>
               </ul>
             </Col>
             <Col md={3} sm={5} className='box'>
-              <h2>Customer Care</h2>
+              <h2>Chăm sóc khách hàng</h2>
               <ul>
-                <li>Help Center </li>
-                <li>How to Buy </li>
-                <li>Track Your Order </li>
-                <li>Corporate & Bulk Purchasing </li>
-                <li>Returns & Refunds </li>
+                <li>Trung tâm trợ giúp </li>
+                <li>Cách mua </li>
+                <li>Theo dõi đơn hàng của bạn</li>
+                <li>Doanh nghiệp  </li>
+                <li>Trả hàng và hoàn tiền </li>
               </ul>
             </Col>
             <Col md={3} sm={5} className='box'>
-              <h2>Contact Us</h2>
+              <h2>Liên hệ với chúng tôi</h2>
               <ul>
-                <li>70 Washington Square South, New York, NY 10012, United States </li>
-                <li>Email: uilib.help@gmail.com</li>
-                <li>Phone: +1 1123 456 780</li>
+                <li>ECOM65 , 207 Giải Phóng , P.Đồng Tâm , Hai Bà Trưng , Hà Nội </li>
+                <li>Email: 65ecc@gmail.com</li>
+                <li>Phone: 09 8386 8386 </li>
               </ul>
             </Col>
           </Row>

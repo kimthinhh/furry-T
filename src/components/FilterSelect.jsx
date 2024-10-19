@@ -2,11 +2,11 @@ import Select from 'react-select';
 import { products } from '../utils/products';
 
 const options = [
-    { value: "sofa", label: "Sofa" },
-    { value: "chair", label: "Chair" },
-    { value: "watch", label: "Watch" },
-    { value: "mobile", label: "Mobile" },
-    { value: "wireless", label: "Wireless" },
+    { value: "sofa", label: "Ghế Sofa" },
+    { value: "chair", label: "Ghế đơn" },
+    { value: "watch", label: "Đồng Hồ" },
+    { value: "mobile", label: "Điện Thoại" },
+    { value: "wireless", label: "Tai nghe" },
 ];
 
 const customStyles = {
@@ -42,7 +42,7 @@ const FilterSelect = ({setFilterList}) => {
     return (
     <Select
     options={options}
-    defaultValue={{ value: "", label: "Filter By Category" }}
+    defaultValue={{ value: "", label: "Lọc theo danh mục" }}
     styles={customStyles}
     onChange={handleChange}
     />

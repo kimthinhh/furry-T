@@ -36,26 +36,26 @@ import watchSlide from "../Images/watch-07.png";
 export const SliderData = [
   {
       id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Giảm giá đến 30% cho lần đầu mua sắm ",
+      desc: "Hoặc không....",
       cover: sofaSlide,
   },
   {
       id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Trải nghiệm mua sắm tuyệt vời ",
+      desc: "Bạn có thể trải nghiệm được cảm giác mua sắm... giống như tất cả các nơi khác .",
       cover: phone08,
   },
   {
       id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Chỉ có tại cửa hàng của Thịnh",
+      desc: "Thực ra là còn có ở nhiều cửa hàng khác nữa :3",
       cover: wireless01,
   },
   {
       id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Còn chần chừ gì nữa!!",
+      desc: "Mà không đưa thẻ ra quẹt thôi nào !!!!",
       cover: watchSlide,
   },
 ];
@@ -63,26 +63,23 @@ export const SliderData = [
 export const serviceData = [
   {
     icon: <ion-icon name="car"></ion-icon>,
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Miễn phí vận chuyển",
     bg: "#fdefe6",
   },
   {
     icon: <ion-icon name="card"></ion-icon>,
-    title: "Safe Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Thanh toán an toàn",
     bg: "#ceebe9",
   },
   {
     icon: <ion-icon name="shield-half-outline"></ion-icon>,
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Bảo mật thanh toán",
     bg: "#e2f2b2",
   },
   {
     icon: <ion-icon name="headset"></ion-icon>,
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: " Đảm bảo hoàn trả",
+    //subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#d6e5fb",
   },
 ];
@@ -96,9 +93,9 @@ export const discoutProducts = [
     price: 193,
     discount:30,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "chúng tôi muốn bạn mua hàng của chúng tôi",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "kakakaka ăn cức",
     reviews: [
       {
         rating: 4.7,
@@ -115,7 +112,7 @@ export const discoutProducts = [
     price: 253,
     discount:20,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "kakaakak djbfhjdshgf ffbdhsgfjhsdgff dghfjsdgfdsf sfvbsdjfgdjshf!",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -138,7 +135,7 @@ export const discoutProducts = [
     price: 89,
     discount:15,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      " kakaka!",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -178,7 +175,7 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Apple Iphone 15 Promax",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -201,7 +198,7 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Apple Iphone 16 Promax",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -474,7 +471,7 @@ export const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Apple iPhone 14 Pro Max",
     imgUrl: phone01,
     category: "mobile",
     price: 799,
@@ -518,7 +515,7 @@ export const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Apple iPhone 15 Plus",
     imgUrl: phone02,
     category: "mobile",
     price: 799,
@@ -541,7 +538,7 @@ export const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Apple Iphone 15 Promax",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -564,7 +561,7 @@ export const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Apple Iphone 16 Promax ",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -587,7 +584,7 @@ export const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Apple iPhone 16",
     imgUrl: phone05,
     category: "mobile",
     price: 899,
@@ -610,7 +607,7 @@ export const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Apple Iphone 16 Plus ",
     imgUrl: phone06,
     category: "mobile",
     price: 699,
@@ -725,7 +722,7 @@ export const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "AirPods 2",
     imgUrl: wireless01,
     category: "wireless",
     price: 199,
@@ -748,7 +745,7 @@ export const products = [
 
   {
     id: "21",
-    productName: "Beat EP Headphones",
+    productName: "Airpods 3",
     imgUrl: wireless03,
     category: "wireless",
     price: 199,
@@ -770,7 +767,7 @@ export const products = [
   },
   {
     id: "22",
-    productName: "Black Headphones",
+    productName: "Airpods Pro",
     imgUrl: wireless02,
     category: "wireless",
     price: 169,
@@ -792,7 +789,7 @@ export const products = [
   },
   {
     id: "23",
-    productName: "Bluetooth Headphones",
+    productName: "AirPods Max",
     imgUrl: wireless04,
     category: "wireless",
     price: 139,

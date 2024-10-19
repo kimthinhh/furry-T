@@ -16,16 +16,16 @@ const Home = () => {
       <SliderHome />
       <Wrapper />
       <Section
-        title="Big Discount"
+        title="Giảm giá lớnnn"
         bgColor="#f6f9fc"
         productItems={discoutProducts}
       />
       <Section
-        title="New Arrivals"
+        title="Hàng mới về"
         bgColor="white"
         productItems={newArrivalData}
       />
-      <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} />
+      <Section title="Bán chạy" bgColor="#f6f9fc" productItems={bestSales} />
     </Fragment>
   );
 };
